@@ -1,4 +1,3 @@
-# Docker Image
 
 A Docker image is a complete filesystem with operating system files, libraries, application and its dependencies.
 

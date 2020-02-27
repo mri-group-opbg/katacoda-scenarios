@@ -1,5 +1,3 @@
-# An interactive example
-
 Let'd try to run a complete ubuntu system with the command:
 
 `docker run -it ubuntu:18.04 bash`{{execute}}

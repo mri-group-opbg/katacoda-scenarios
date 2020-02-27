@@ -6,27 +6,27 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Docker Images",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Docker Containers",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "An interactive example",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Download FreeSurfer",
         "text": "step4.md"
       },
       {
-        "title": "Step 5",
+        "title": "Play with FreeSurfer",
         "text": "step5.md"
       },
       {
-        "title": "Step 6",
+        "title": "Finally run recon-all!!!",
         "text": "step6.md"
       }
     ],

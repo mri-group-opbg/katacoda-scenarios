@@ -1,5 +1,3 @@
-# Download FreeSurfer
-
 Download the FreeSurfer image:
 
 `docker pull freesurfer/freesurfer:6.0`{{execute}}

@@ -1,5 +1,3 @@
-# Finally run recon-all!!!
-
 `
 docker run \
     --rm \

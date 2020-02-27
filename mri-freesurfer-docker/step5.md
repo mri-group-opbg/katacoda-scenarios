@@ -1,5 +1,3 @@
-# Play with FreeSurfer
-
 Suppose you want to execute `recon-all` in FreeSurfer.
 
 Let's prepare our environment!
