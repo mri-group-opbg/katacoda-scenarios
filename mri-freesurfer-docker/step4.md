@@ -4,5 +4,5 @@ Download the FreeSurfer image:
 
 In 4-5 minutes you will have a running Freesurfer in your environment (it is a 5 Giga package!!!)
 
-`docker run freesurfer/freesurfer:6.0 help`{{execute}}
+`docker run freesurfer/freesurfer:6.0 recon-all help`{{execute}}
 

@@ -1,12 +1,10 @@
 ```
-docker run \
-    --rm \
-    --name recon-all \
+docker run --rm --name recon-all \
     -v $(pwd)/anat.nii.gz:/input/anat.nii.gz \
-    -v $(pwd):/opt/freesurfer/subjects \
+    -v $(pwd)/subjects:/opt/freesurfer/subjects \
     -v $(pwd)/license.txt:/opt/freesurfer/.license \
         freesurfer/freesurfer:6.0 \
-            recon-all -i /input/anat.nii.gz -s result -all
+            recon-all -i /input/anat.nii.gz -s tizio -all
 ```{{execute}}
 
 While recon-all is running *open another terminal* with the following:
