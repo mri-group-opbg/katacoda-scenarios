@@ -8,9 +8,7 @@ You can look for Docker images with the command `search`.
 
 Try to run
 
-```{{execute}}
-docker search hello-world
-```
+`docker search hello-world`{{execute}}
 
 You will see all the images that people created with the world `hello-world` in the name.
 
@@ -18,6 +16,4 @@ Docker images have as name `<repository>/<image_name>`
 
 You can download ad image with the command `pull`:
 
-```{{execute}}
-docker pull hello-world
-```
+`docker pull hello-world`{{execute}}
