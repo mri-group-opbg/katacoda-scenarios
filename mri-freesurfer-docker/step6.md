@@ -9,7 +9,7 @@ docker run \
             recon-all -i /input/anat.nii.gz -s result -all
 ```{{execute}}
 
-While recon-all is running open another terminal
+While recon-all is running *open another terminal* with the following:
 
 `ls -lh subjects/tizio`{{execute T2}}
 
