@@ -37,6 +37,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "freesurfer/freesurfer:6.0"
+    "imageid": "ubuntu"
   }
 }
