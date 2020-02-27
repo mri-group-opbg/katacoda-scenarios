@@ -1,20 +1,23 @@
-Try to run the command:
+# Docker Image
+
+A Docker image is a complete filesystem with operating system files, libraries, application and its dependencies.
+
+Docker images are saved on a Docker Registry.
+
+You can look for Docker images with the command `search`.
+
+Try to run
 
 ```
-docker pull freesurfer/freesurfer:6.0
+docker search hello-world
 ```
 
-In 4-5 minutes you will have a running Freesurfer in your environment
+You will see all the images that people created with the world `hello-world` in the name.
 
-Run the following command to write your license in the file `license.txt`:
+Docker images have as name `<repository>/<image_name>`
 
-cat <<EOT > license.txt
-elena.swa@hotmail.it
-31311
- *CA5LKFSazHnE
- FSJHQF00tpWss
-EOT
+You can download ad image with the command `pull`:
 
-
-
-
+```
+docker pull hello-world
+```
