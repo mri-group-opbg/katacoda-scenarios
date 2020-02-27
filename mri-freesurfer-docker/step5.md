@@ -4,7 +4,7 @@ Let's prepare our environment!
 
 Run the following command to write your license in the file `license.txt`:
 
-`
+```
 cat <<EOT > license.txt
 elena.swa@hotmail.it
 31311
@@ -12,7 +12,7 @@ elena.swa@hotmail.it
  FSJHQF00tpWss
 
 EOT
-`{{execute}}
+```{{execute}}
 
 Download sample MRI data to be processed:
 
@@ -20,6 +20,4 @@ Download sample MRI data to be processed:
 
 Create the area for your results
 
-```
-mkdir subjects
-```
+`mkdir subjects`{{execute}}

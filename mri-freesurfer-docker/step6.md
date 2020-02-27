@@ -1,4 +1,4 @@
-`
+```
 docker run \
     --rm \
     --name recon-all \
@@ -7,7 +7,7 @@ docker run \
     -v $(pwd)/license.txt:/opt/freesurfer/.license \
         freesurfer/freesurfer:6.0 \
             recon-all -i /input/anat.nii.gz -s result -all
-`{{execute}}
+```{{execute}}
 
 While recon-all is running open another terminal
 
