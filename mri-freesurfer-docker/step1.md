@@ -8,7 +8,7 @@ You can look for Docker images with the command `search`.
 
 Try to run
 
-```
+```{{execute}}
 docker search hello-world
 ```
 
@@ -18,6 +18,6 @@ Docker images have as name `<repository>/<image_name>`
 
 You can download ad image with the command `pull`:
 
-```
+```{{execute}}
 docker pull hello-world
 ```
